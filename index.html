@@ -494,6 +494,18 @@
             </li>
           </ul>
         </div>
+
+        <div class="subscribe">
+          <!-- <h3 class="subscribe-subtitle">подпишитесь на рассылку</h3> -->
+
+          <form class="js-subscribe">
+            <label for="mail" class="subscribe-subtitle"
+              >подпишитесь на рассылку</label
+            >
+            <input type="email" name="mail" id="mail" />
+            <button type="submit" class="subscribe-button">Подписаться</button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -508,5 +520,19 @@
     </div>
 
     <script src="./js/modal.js"></script>
+
+    <script>
+      (() => {
+        document
+          .querySelector('.js-subscribe')
+          .addEventListener('submit', e => {
+            e.preventDefault();
+
+            new FormData(e.currentTarget).forEach((value, name) =>
+              console.log('${name}: ${value}'),
+            );
+          });
+      })();
+    </script>
   </body>
 </html>
