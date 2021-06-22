@@ -12,7 +12,7 @@
   --border-card: #eeeeee;
   --section-indent: 94px;
   --card-indent: 30px;
-  --click-order: #188ce8;
+  --click: #188ce8;
   --color-icon: #afb1b8;
   --color-circle-icon-bottom: #ffffff1a;
   --box-shadow1: 0px 2px 1px 0px #00000033;
@@ -290,7 +290,7 @@ body {
 }
 
 .hero-button:hover {
-  background-color: var(--click-order);
+  background-color: var(--click);
 }
 
 .hero-title,
@@ -910,5 +910,5 @@ body {
 }
 
 .subscribe-button:hover {
-  background-color: var(--click-order);
+  background-color: var(--click);
 }
