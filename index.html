@@ -543,21 +543,28 @@
             name="person-form"
             type="text"
             placeholder="#"
+            minlength="2"
+            required
           />
           <input
             class="data-form-input"
             name="phone-form"
-            type="text"
+            title="xxx xxx xx xx"
+            type="tel"
+            pattern="[0-9]{3} [0-9]{3} [0-9]{2} [0-9]{2}"
             placeholder="#"
+            minlength="10"
+            required
           />
           <input
             class="data-form-input"
             name="email-form"
-            type="text"
+            type="email"
             placeholder="#"
+            required
           />
           <input
-            class="data-form-input"
+            class="data-form-input comment"
             type="text"
             placeholder="Введите текст"
           />
@@ -570,7 +577,7 @@
 
     <script src="./js/modal.js"></script>
 
-    <script>
+    <!-- <script>
       (() => {
         document
           .querySelector('.js-subscribe')
@@ -583,6 +590,6 @@
             e.currentTarget.reset();
           });
       })();
-    </script>
+    </script> -->
   </body>
 </html>
