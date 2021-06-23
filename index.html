@@ -500,7 +500,7 @@
         <div class="subscribe">
           <h3 class="hidden-title">подпишитесь на рассылку</h3>
 
-          <form class="js-subscribe">
+          <form method="GET" class="js-subscribe">
             <label for="mail" class="subscribe-subtitle"
               >подпишитесь на рассылку</label
             >
@@ -528,6 +528,7 @@
       </div>
     </footer>
 
+    <!-- ?!!! -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close" data-modal-close>
@@ -535,8 +536,18 @@
             <use href="./images/icons.svg#close"></use>
           </svg>
         </button>
+
+        <form method="GET" class="data-form">
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <button type="submit" class="data-form-button">Отправить</button>
+        </form>
       </div>
     </div>
+    <!-- !!! -->
+    <!-- !!! -->
 
     <script src="./js/modal.js"></script>
 

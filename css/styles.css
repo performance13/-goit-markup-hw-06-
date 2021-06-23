@@ -962,3 +962,28 @@ body {
 /* ! */
 
 /* !!! */
+.data-form {
+  position: relative;
+  bottom: 0px;
+  left: 0;
+
+  width: 528px;
+  height: 581px;
+
+  padding: 40px;
+  outline: 3px solid tomato;
+}
+
+.data-form-button {
+  width: 200px;
+  height: 50px;
+
+  padding: 10px 55px 10px 56px;
+
+  position: absolute;
+  bottom: 40px;
+  left: 164px;
+
+  /* transform: translateX(70%); */
+  /* transform: translateY(50%); */
+}
