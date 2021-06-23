@@ -563,11 +563,18 @@
             placeholder="#"
             required
           />
-          <input
+
+          <textarea
             class="data-form-input comment"
-            type="text"
             placeholder="Введите текст"
-          />
+          ></textarea>
+
+          <div class="checkbox">
+            <input type="checkbox" /><span class="agree-newsletter"
+              >Соглашаюсь с рассылкой и принимаю </span
+            ><a href="#" class="agreement-conditions">Условия договора </a>
+          </div>
+
           <button type="submit" class="data-form-button">Отправить</button>
         </form>
       </div>
@@ -577,7 +584,7 @@
 
     <script src="./js/modal.js"></script>
 
-    <!-- <script>
+    <script>
       (() => {
         document
           .querySelector('.js-subscribe')
@@ -590,6 +597,6 @@
             e.currentTarget.reset();
           });
       })();
-    </script> -->
+    </script>
   </body>
 </html>

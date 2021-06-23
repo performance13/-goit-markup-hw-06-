@@ -976,14 +976,14 @@ body {
 }
 
 .data-form-button {
+  position: absolute;
+  bottom: 40px;
+  left: 164px;
+
   width: 200px;
   height: 50px;
 
   padding: 10px 55px 10px 56px;
-
-  position: absolute;
-  bottom: 40px;
-  left: 164px;
 }
 
 .data-form-button {
@@ -1045,4 +1045,23 @@ body {
   letter-spacing: 0.01em;
 
   color: rgba(117, 117, 117, 0.5);
+}
+
+.agreement-conditions {
+  color: var(--accent-color);
+  text-decoration: underline;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+.agree-newsletter {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+
+  color: var(--secondary-text-color);
 }
