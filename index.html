@@ -495,6 +495,8 @@
           </ul>
         </div>
 
+        <!-- ! -->
+
         <div class="subscribe">
           <!-- <h3 class="subscribe-subtitle">подпишитесь на рассылку</h3> -->
 
@@ -502,10 +504,27 @@
             <label for="mail" class="subscribe-subtitle"
               >подпишитесь на рассылку</label
             >
-            <input type="email" name="mail" id="mail" />
-            <button type="submit" class="subscribe-button">Подписаться</button>
+            <div class="subscribe-field">
+              <input
+                class="subscribe-input"
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder="E-mail"
+                autocomplete="email"
+              />
+              <button type="submit" class="subscribe-button">
+                Подписаться
+
+                <svg class="subskribe-icon">
+                  <use href="./images/icons.svg#subskribe-icon"></use>
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
+
+        <!-- ! -->
       </div>
     </footer>
 
@@ -531,6 +550,7 @@
             new FormData(e.currentTarget).forEach((value, name) =>
               console.log('${name}: ${value}'),
             );
+            e.currentTarget.reset();
           });
       })();
     </script>
