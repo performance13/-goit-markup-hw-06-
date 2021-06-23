@@ -1048,13 +1048,13 @@ body {
 }
 
 .agreement-conditions {
-  color: var(--accent-color);
-  text-decoration: underline;
-
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
+
+  color: var(--accent-color);
+  text-decoration: underline;
 }
 
 .agree-newsletter {

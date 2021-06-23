@@ -538,41 +538,58 @@
         </button>
 
         <form method="GET" class="data-form">
-          <input
-            class="data-form-input"
-            name="person-form"
-            type="text"
-            placeholder="#"
-            minlength="2"
-            required
-          />
-          <input
-            class="data-form-input"
-            name="phone-form"
-            title="xxx xxx xx xx"
-            type="tel"
-            pattern="[0-9]{3} [0-9]{3} [0-9]{2} [0-9]{2}"
-            placeholder="#"
-            minlength="10"
-            required
-          />
-          <input
-            class="data-form-input"
-            name="email-form"
-            type="email"
-            placeholder="#"
-            required
-          />
+          <label for="">
+            Имя
+            <input
+              class="data-form-input"
+              name="person-form"
+              type="text"
+              placeholder="#"
+              minlength="2"
+              required
+            />
+          </label>
 
-          <textarea
-            class="data-form-input comment"
-            placeholder="Введите текст"
-          ></textarea>
+          <label for="">
+            Телефон
+            <input
+              class="data-form-input"
+              name="phone-form"
+              title="xxx xxx xx xx"
+              type="tel"
+              pattern="[0-9]{3} [0-9]{3} [0-9]{2} [0-9]{2}"
+              placeholder="#"
+              minlength="10"
+              required
+            />
+          </label>
+
+          <label for="">
+            Почта
+            <input
+              class="data-form-input"
+              name="email-form"
+              type="email"
+              placeholder="#"
+              required
+            />
+          </label>
+
+          <label for="">
+            Комментарий
+            <textarea
+              class="data-form-input comment"
+              placeholder="Введите текст"
+            >
+            </textarea>
+          </label>
 
           <div class="checkbox">
-            <input type="checkbox" /><span class="agree-newsletter"
-              >Соглашаюсь с рассылкой и принимаю </span
-            ><a href="#" class="agreement-conditions">Условия договора </a>
+            <input type="checkbox" value="agree" name="check" /><span
+              class="agree-newsletter"
+              >Соглашаюсь с рассылкой и принимаю
+            </span>
+            <a href="#" class="agreement-conditions">Условия договора</a>
           </div>
 
           <button type="submit" class="data-form-button">Отправить</button>
