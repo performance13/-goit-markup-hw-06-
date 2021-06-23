@@ -983,7 +983,15 @@ body {
   position: absolute;
   bottom: 40px;
   left: 164px;
+}
 
-  /* transform: translateX(70%); */
-  /* transform: translateY(50%); */
+.data-form-input {
+  display: block;
+
+  width: 100%;
+  height: 40px;
+}
+
+.data-form .data-form-input + .data-form-input {
+  margin-top: 10px;
 }
