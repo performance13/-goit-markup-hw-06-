@@ -876,7 +876,7 @@ body {
   height: 11px;
 }
 
-/* ! */
+/* 498 */
 
 .js-subscribe {
   display: flex;
@@ -963,9 +963,7 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
-/* ! */
-
-/* !!! */
+/* 535 */
 .data-form {
   position: relative;
   bottom: 0px;
@@ -1077,6 +1075,8 @@ body {
   font-size: 14px;
   line-height: 1.714;
 
+  text-align: center;
+
   color: var(--secondary-text-color);
 }
 
@@ -1086,14 +1086,14 @@ body {
   font-size: 14px;
   line-height: 1.714;
 
-  color: var(--accent-color);
   text-decoration: underline;
+  color: var(--accent-color);
 }
 
 .inscription {
-  margin-bottom: 10px;
-
   display: block;
+
+  margin-bottom: 10px;
   font-size: 12px;
   line-height: 1.166;
   letter-spacing: 0.01em;
@@ -1126,17 +1126,9 @@ body {
   display: inline-block;
   vertical-align: auto;
 
-  /* fill: currentColor; */
-  /* text-align: center; */
-  /* margin: auto; */
-
-  /* width: 16px;
-  height: 15px; */
-
   border: 2px solid var(--primary-text-color);
   border-radius: 2px;
 
-  outline: 1px solid tomato;
   vertical-align: sub;
 }
 
@@ -1144,9 +1136,6 @@ body {
   display: block;
   width: 16px;
   height: 15px;
-
-  /* border: 2px solid var(--primary-text-color); */
-  /* border-radius: 2px; */
 }
 
 .checkbox:checked + .checkbox-icon {
@@ -1157,12 +1146,4 @@ body {
 
   background-color: var(--accent-color);
   border-color: var(--accent-color);
-  /* background-origin: border-box; */
-  /* background-origin: content-box; */
-}
-
-.agree-newsletter {
-  outline: 1px solid red;
-  /* display: flex; */
-  text-align: center;
 }
