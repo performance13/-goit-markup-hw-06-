@@ -25,6 +25,7 @@
   --border-input: #21212133;
   --comment-placeholder: #bababa;
   --subscribe-input-border: #ffffff4d;
+  --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*! CANCELING DEFAULT STYLES */
@@ -204,7 +205,7 @@ body {
 .menu-item {
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--cubic-bezier);
 }
 
 .menu-list .menu-item :hover,
@@ -301,7 +302,7 @@ body {
 
   transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--cubic-bezier);
 }
 
 .hero-button:hover,
@@ -509,7 +510,7 @@ body {
 
   transition-property: background-color, fill;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--cubic-bezier);
 }
 
 .social-link:hover,
@@ -561,7 +562,7 @@ body {
 
   transition-property: border-color, fill;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--cubic-bezier);
 }
 
 .client-link:hover,
@@ -608,7 +609,7 @@ body {
 
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--cubic-bezier);
 }
 
 .address-list :hover,
@@ -667,7 +668,7 @@ body {
 
   transition-property: background-color, fill;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--cubic-bezier);
 }
 
 .social-link-bottom:hover,
@@ -699,7 +700,7 @@ body {
 
   transition-property: background-color, color, border-radius;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--cubic-bezier);
 }
 
 .portfolio-list :hover,
@@ -763,8 +764,7 @@ body {
 
   transition-property: box-shadow;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+  transition-timing-function: var(--cubic-bezier);
 
 .project-item:hover,
 .project-item:focus {
@@ -799,7 +799,7 @@ body {
   display: block;
 
   transform: translateY(-100%);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms var(--cubic-bezier);
 }
 
 .card-content {
@@ -931,7 +931,7 @@ body {
 
   transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cvar(--cubic-bezier);
 }
 
 .subscribe-button:hover,
@@ -1026,7 +1026,7 @@ body {
 
   transition-property: background-color, border-radius;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--cubic-bezier);
 }
 
 .data-form-button:hover,
