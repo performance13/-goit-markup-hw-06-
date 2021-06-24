@@ -24,7 +24,6 @@
   --color-circle-close-icon: #e6e6e6;
   --border-input: #21212133;
   --comment-placeholder: #bababa;
-  --subscribe-input-placeholder: ;
   --subscribe-input-border: #ffffff4d;
 }
 
@@ -978,6 +977,18 @@ body {
   padding: 40px;
 }
 
+.form-subtitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+
+  text-align: center;
+
+  margin-bottom: 12px;
+
+  color: var(--primary-text-color);
+}
+
 .data-form-button {
   position: absolute;
   bottom: 40px;
@@ -1038,8 +1049,10 @@ body {
 }
 
 .comment {
-  width: 448px;
+  width: 100%;
   height: 120px;
+
+  padding-left: 16px;
 
   margin-top: 4px;
   margin-bottom: 32px;
@@ -1056,6 +1069,17 @@ body {
   color: var(--comment-placeholder);
 }
 
+.agree-newsletter {
+  display: block;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+
+  color: var(--secondary-text-color);
+}
+
 .agreement-conditions {
   font-style: normal;
   font-weight: normal;
@@ -1064,15 +1088,6 @@ body {
 
   color: var(--accent-color);
   text-decoration: underline;
-}
-
-.agree-newsletter {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.714;
-
-  color: var(--secondary-text-color);
 }
 
 .inscription {
@@ -1102,14 +1117,24 @@ body {
   height: 18px;
 }
 
-.form-subtitle {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
+.checkbox {
+  /* appearance: none; */
+  /* position: absolute; */
+}
 
-  text-align: center;
+.checkbox-icon {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
 
-  margin-bottom: 12px;
+  border: 2px solid var(--primary-text-color);
+  border-radius: 2px;
+}
 
-  color: var(--primary-text-color);
+.checkbox:checked + .checkbox-icon {
+  background-color: #2196f3;
+}
+
+.agree-newsletter {
+  outline: 1px solid tomato;
 }

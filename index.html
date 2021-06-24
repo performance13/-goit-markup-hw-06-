@@ -602,19 +602,33 @@
             ></textarea>
           </label>
 
-          <!-- <div class="checkbox">
-            <input type="checkbox" value="agree" name="check" /><span
-              class="agree-newsletter"
-              >Соглашаюсь с рассылкой и принимаю
-            </span>
-            <a href="#" class="agreement-conditions">Условия договора</a>
-          </div> -->
-
-          <input type="checkbox" value="agree" name="check" required />
-          <label for="checkbox" class="agree-newsletter">
+          <label for="check-box" class="agree-newsletter">
+            <input
+              type="checkbox"
+              id="check-box"
+              value="agree"
+              name="check"
+              class="checkbox"
+              required
+            />
+            <span class="checkbox-icon"></span>
             Соглашаюсь с рассылкой и принимаю
             <a href="#" class="agreement-conditions">Условия договора</a>
           </label>
+
+          <!-- <input
+            type="checkbox"
+            id="check-box"
+            value="agree"
+            name="check"
+            class="checkbox"
+            required
+          />
+          <label for="check-box" class="agree-newsletter">
+            Соглашаюсь с рассылкой и принимаю
+            <a href="#" class="agreement-conditions">Условия договора</a>
+            <span class="checkbox-icon"></span>
+          </label> -->
 
           <button type="submit" class="data-form-button">Отправить</button>
         </form>
