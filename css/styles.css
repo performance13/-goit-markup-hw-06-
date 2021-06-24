@@ -765,6 +765,7 @@ body {
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-bezier);
+}
 
 .project-item:hover,
 .project-item:focus {
@@ -931,7 +932,7 @@ body {
 
   transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function: cvar(--cubic-bezier);
+  transition-timing-function: var(--cubic-bezier);
 }
 
 .subscribe-button:hover,
@@ -1140,7 +1141,6 @@ body {
 
 .checkbox-icon {
   display: inline-block;
-  vertical-align: auto;
 
   border: 2px solid var(--primary-text-color);
   border-radius: 2px;
