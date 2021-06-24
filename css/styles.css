@@ -978,14 +978,13 @@ body {
 
 /* 535 */
 .data-form {
-  position: relative;
-  bottom: 0px;
-  left: 0;
-
-  width: 528px;
-  height: 581px;
-
   padding: 40px;
+  /* position: relative; */
+  /* bottom: 0px; */
+  /* left: 0; */
+
+  /* width: 528px;
+  height: 581px; */
 }
 
 .form-subtitle {
