@@ -541,39 +541,56 @@
           <p class="form-subtitle">Оставьте свои данные, мы вам перезвоним</p>
           <label class="inscription">
             Имя
-            <input
-              class="data-form-input"
-              name="person-form"
-              type="text"
-              placeholder="#"
-              minlength="2"
-              required
-            />
+            <span class="input-wrap">
+              <input
+                class="data-form-input"
+                name="person-form"
+                type="text"
+                minlength="2"
+                required
+              /><span class="input-icon">
+                <svg class="person-form-icon">
+                  <use href="./images/icons.svg#person-form"></use>
+                </svg>
+              </span>
+            </span>
           </label>
 
           <label class="inscription">
             Телефон
-            <input
-              class="data-form-input"
-              name="phone-form"
-              title="xxx xxx xx xx"
-              type="tel"
-              pattern="[0-9]{3} [0-9]{3} [0-9]{2} [0-9]{2}"
-              placeholder="#"
-              minlength="10"
-              required
-            />
+            <span class="input-wrap">
+              <input
+                class="data-form-input"
+                name="phone-form"
+                title="xxx xxx xx xx"
+                type="tel"
+                pattern="[0-9]{3} [0-9]{3} [0-9]{2} [0-9]{2}"
+                minlength="10"
+                required
+              />
+              <span class="input-icon">
+                <svg class="person-form-icon">
+                  <use href="./images/icons.svg#phone-form"></use>
+                </svg>
+              </span>
+            </span>
           </label>
 
           <label class="inscription">
             Почта
-            <input
-              class="data-form-input"
-              name="email-form"
-              type="email"
-              placeholder="#"
-              required
-            />
+            <span class="input-wrap">
+              <input
+                class="data-form-input"
+                name="email-form"
+                type="email"
+                required
+              />
+              <span class="input-icon">
+                <svg class="person-form-icon">
+                  <use href="./images/icons.svg#email-form"></use>
+                </svg>
+              </span>
+            </span>
           </label>
 
           <label class="inscription">
@@ -585,13 +602,19 @@
             ></textarea>
           </label>
 
-          <div class="checkbox">
+          <!-- <div class="checkbox">
             <input type="checkbox" value="agree" name="check" /><span
               class="agree-newsletter"
               >Соглашаюсь с рассылкой и принимаю
             </span>
             <a href="#" class="agreement-conditions">Условия договора</a>
-          </div>
+          </div> -->
+
+          <input type="checkbox" value="agree" name="check" required />
+          <label for="checkbox" class="agree-newsletter">
+            Соглашаюсь с рассылкой и принимаю
+            <a href="#" class="agreement-conditions">Условия договора</a>
+          </label>
 
           <button type="submit" class="data-form-button">Отправить</button>
         </form>

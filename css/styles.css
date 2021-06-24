@@ -980,18 +980,13 @@ body {
   bottom: 40px;
   left: 164px;
 
-  width: 200px;
+  display: block;
+
+  min-width: 200px;
   height: 50px;
 
   padding: 10px 55px 10px 56px;
-}
-
-.data-form-button {
-  display: block;
-
   margin: auto;
-  min-width: 200px;
-  height: 50px;
 
   font-weight: 700;
   line-height: 1.875;
@@ -1024,19 +1019,16 @@ body {
 
   padding-top: 11px;
   padding-bottom: 11px;
-  padding-left: 12px;
+  padding-left: 42px;
   border: 1px solid var(--border-input);
   border-radius: 4px;
-}
-
-.data-form .data-form-input + .data-form-input {
-  /* margin-top: 10px; */
 }
 
 .comment {
   width: 448px;
   height: 120px;
 
+  margin-top: 4px;
   margin-bottom: 32px;
 
   resize: none;
@@ -1079,6 +1071,22 @@ body {
   letter-spacing: 0.01em;
 
   color: var(--secondary-text-color);
+}
+
+.input-wrap {
+  display: block;
+  position: relative;
+  margin-top: 4px;
+}
+
+.person-form-icon {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 12px;
+
+  width: 18px;
+  height: 18px;
 }
 
 .form-subtitle {
