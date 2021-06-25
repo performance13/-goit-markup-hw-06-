@@ -102,7 +102,8 @@ body {
 .modal-close,
 .subscribe-button,
 .data-form-button,
-.agree-newsletter {
+.agree-newsletter,
+.data-form-input {
   cursor: pointer;
 }
 
@@ -1058,10 +1059,14 @@ body {
   border-color: var(--accent-color);
 }
 
-.data-form-input:hover + .input-icon,
-.data-form-input:focus + .input-icon {
+.data-form-input:checked + .input-icon {
   fill: var(--accent-color);
 }
+
+/* .data-form-input:hover + .input-icon,
+.data-form-input:focus + .input-icon {
+  fill: var(--accent-color);
+} */
 
 .comment {
   width: 100%;
