@@ -1059,10 +1059,6 @@ body {
   border-color: var(--accent-color);
 }
 
-/* .data-form-input:checked + .input-icon {
-  fill: var(--accent-color);
-} */
-
 .data-form-input:focus + .input-icon {
   fill: var(--accent-color);
 }
