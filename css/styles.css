@@ -101,7 +101,8 @@ body {
 .project-item,
 .modal-close,
 .subscribe-button,
-.data-form-button {
+.data-form-button,
+.agree-newsletter {
   cursor: pointer;
 }
 
