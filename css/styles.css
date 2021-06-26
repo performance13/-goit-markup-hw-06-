@@ -981,12 +981,6 @@ body {
 /* 535 */
 .data-form {
   padding: 40px;
-  /* position: relative; */
-  /* bottom: 0px; */
-  /* left: 0; */
-
-  /* width: 528px;
-  height: 581px; */
 }
 
 .form-subtitle {
@@ -1002,10 +996,6 @@ body {
 }
 
 .data-form-button {
-  position: absolute;
-  bottom: 40px;
-  left: 164px;
-
   display: block;
 
   min-width: 200px;
@@ -1085,6 +1075,8 @@ body {
 
 .agree-newsletter {
   display: block;
+
+  margin-bottom: 30px;
 
   font-style: normal;
   font-weight: normal;
