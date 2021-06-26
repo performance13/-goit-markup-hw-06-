@@ -1080,6 +1080,10 @@ body {
   color: var(--secondary-text-color);
 }
 
+.agree-newsletter-text {
+  display: inline;
+}
+
 .agreement-conditions {
   font-style: normal;
   font-weight: normal;
