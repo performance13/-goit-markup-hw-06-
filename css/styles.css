@@ -640,7 +640,6 @@ body {
 }
 
 .join-subtitle {
-  /* display: block; */
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -709,7 +708,7 @@ body {
 .portfolio-list :focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-  /* border: 1px solid transparent; */
+
   border-radius: 4px;
 }
 
@@ -891,13 +890,9 @@ body {
   height: 11px;
 }
 
-/* 498 */
-
 .js-subscribe {
   display: flex;
   position: relative;
-  /* bottom: 0;
-  right: 0; */
 
   flex-direction: column;
   margin-left: 93px;
@@ -914,8 +909,6 @@ body {
 }
 
 .subscribe-button {
-  /* position: absolute; */
-
   margin-left: 12px;
   padding: 10px 28px 10px 29px;
 
@@ -978,7 +971,6 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
-/* 535 */
 .data-form {
   padding: 40px;
 }
